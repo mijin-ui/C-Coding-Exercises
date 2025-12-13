@@ -1,4 +1,3 @@
-#include <stdio.h>
 /*题目要求
 我们希望输入任何一个非负整数,他可以帮我们正序打出
 例
@@ -7,6 +6,7 @@
 */
 
 /*
+#include <stdio.h>
 int main()
 {
 	int x;
@@ -43,7 +43,6 @@ int main()
 {
 	int x;
 	int mask = 1;
-
 	scanf("%d", &x);
 	int t = x;
 	do{
